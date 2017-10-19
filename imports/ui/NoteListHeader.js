@@ -5,13 +5,10 @@ import { createContainer } from 'meteor/react-meteor-data';
 export const NoteListHeader = (props) => {
   return (
     <div>
-      NoteListHeader
       <button onClick={(e) => {
         console.log(props);
         props.meteorCall('notes.insert');
-      }}>
-        Add Note
-      </button>
+      }}>Create Note</button>
     </div>
   );
 }
