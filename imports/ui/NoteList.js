@@ -4,7 +4,7 @@ import { createContainer } from 'meteor/react-meteor-data';
 
 import { Notes } from '../api/notes';
 import NoteListHeader from './NoteListHeader';
-import NoteListItem from './NoteListItem';
+import { NoteListItem  }from './NoteListItem';
 import NoteListEmptyItem from './NoteListEmptyItem';
 
 
