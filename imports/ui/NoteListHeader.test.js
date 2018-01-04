@@ -39,8 +39,6 @@ if (Meteor.isClient) {
       expect(meteorCall.calls[0].arguments[0]).toBe('notes.insert');
       expect(Session.set).toNotHaveBeenCalled();
     });
-
-
   });
 }
 // it should call meteorCall on click
