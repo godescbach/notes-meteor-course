@@ -18,7 +18,7 @@ export const NoteList = (props) => {
     notesContent = <NoteListEmptyItem />;
   }
   return (
-    <div>
+    <div className="item-list">
       <NoteListHeader />
       {notesContent}
       <p>NoteList: {props.notes.length}</p>

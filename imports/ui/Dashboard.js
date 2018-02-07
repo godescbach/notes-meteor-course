@@ -12,7 +12,7 @@ export default () => {
         <div className="page-content__sidebar">
         <NoteList />
         </div>
-        <div className="page-content__sidebar">
+        <div className="page-content__main">
         <Editor />
         </div>
       </div>
