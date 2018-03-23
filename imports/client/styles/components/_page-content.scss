@@ -4,7 +4,6 @@
   margin: 0 auto;
   max-width: $site-max-width;
 
-  @include funkyBackground(#333333);
   // setup media query to set padding
   @include desktop {
     padding: $large-space $space;
@@ -27,9 +26,6 @@
   width: 100%;
 
   @include desktop {
-    @include funkyBorder() {
-      color: green;
-    };
     width: $page-content-main-width;
   }
 }
