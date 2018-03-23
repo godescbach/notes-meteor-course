@@ -10,7 +10,7 @@ export const PrivateHeader = (props) => {
   return (
     <div className="header">
       <div className="header__content">
-        <img src={navImageSrc} onClick={() => props.handleNavToggle()}/>
+        <img className="header__nav-toggle" src={navImageSrc} onClick={() => props.handleNavToggle()}/>
         <h1 className="header__title">{props.title}</h1>
         <button className="button button--link-text" onClick={() => props.handleLogout()}>Logout</button>
       </div>
